@@ -1,0 +1,11 @@
+INPUT 1, MEMASUKKAN DATA
+FB006 | Interstellar | 2014 | Sci-Fi | 169 | 13+ | IMAX | Inggris | 4K
+
+INPUT 2, MEMASUKKAN DATA
+FB007 | Inception | 2010 | Sci-Fi | 148 | 13+ | IMAX | Inggris | 4K
+
+INPUT 3, ID SUDAH ADA
+FB001 | The Batman | 2022 | Action | 176 | 13+ | IMAX | Inggris | 4K
+
+INPUT 4, JUMLAH DATA HARUS SESUAI
+FB008 | Oppenheimer | 2023 | Drama | 180 | 17+
