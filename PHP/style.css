@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #0f0f0f;
+    color: #f5f5f5;
+}
+
+header {
+    padding: 30px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #1a1a1a, #250000);
+    border-bottom: 3px solid #e50914;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+    margin: 0 0 6px;
+    font-size: 30px;
+}
+
+header p {
+    margin: 0;
+    color: #bbbbbb;
+}
+
+main {
+    width: 92%;
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+.menu-atas {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.tombol-show {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #e50914;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.tombol-show:hover {
+    background: #b20710;
+}
+
+
+.form-section {
+    background: #181818;
+    padding: 22px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #292929;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.form-section h2 {
+    margin: 0 0 18px;
+    font-size: 22px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 13px 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #eeeeee;
+}
+
+.form-group input {
+    padding: 10px 11px;
+    border: 1px solid #444444;
+    border-radius: 6px;
+    background: #242424;
+    color: white;
+    font-size: 14px;
+}
+
+.form-group input::placeholder {
+    color: #777777;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #e50914;
+    background: #282828;
+}
+
+.tombol-simpan {
+    margin-top: 17px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background: #e50914;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.tombol-simpan:hover {
+    background: #b20710;
+}
+
+.pesan {
+    background: #222222;
+    border-left: 4px solid #e50914;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #eeeeee;
+}
+
+
+.tabel-section {
+    background: #181818;
+    color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #292929;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Judul bagian tabel */
+.tabel-section .judul-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.tabel-section .judul-section h2 {
+    margin: 0;
+    font-size: 21px;
+    color: #f5f5f5;
+}
+
+.tabel-section .judul-section span {
+    color: #999999;
+    font-size: 14px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #333333;
+    border-radius: 7px;
+}
+
+
+table {
+    width: 100%;
+    min-width: 1100px;
+    border-collapse: collapse;
+    background: #181818;
+}
+
+/* Header tabel */
+thead {
+    background: #222222;
+}
+
+th {
+    padding: 11px 12px;
+    border-bottom: 2px solid #e50914;
+    color: #eeeeee;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Isi tabel */
+td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #333333;
+    font-size: 13px;
+    text-align: center;
+    white-space: nowrap;
+    color: #dddddd;
+}
+
+/* Warna baris tabel */
+tbody tr:nth-child(even) {
+    background: #1d1d1d;
+}
+
+tbody tr:nth-child(odd) {
+    background: #181818;
+}
+
+/* Efek hover */
+tbody tr:hover {
+    background: #292929;
+}
+
+.poster-film {
+    width: 60px;
+    height: 82px;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+.id-film {
+    color: #e50914;
+    font-weight: bold;
+}
+
+.judul-film {
+    min-width: 190px;
+    text-align: left;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+@media (max-width: 700px) {
+
+    main {
+        width: 94%;
+    }
+
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    .form-section {
+        padding: 18px;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tabel-section {
+        padding: 12px;
+    }
+
+    th,
+    td {
+        padding: 8px 9px;
+    }
+
+    .poster-film {
+        width: 55px;
+        height: 75px;
+    }
+}

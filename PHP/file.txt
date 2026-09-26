@@ -1,0 +1,21 @@
+ID Media       : FB006
+Judul          : Sore: Istri dari Masa Depan
+Tahun Rilis    : 2025
+Genre          : Drama/Romance
+Durasi         : 119
+Rating Usia    : 13+
+Format Film    : 2D
+Bahasa Audio   : Indonesia
+Kualitas Gambar: 4K Digital
+Foto Poster    : pilih poster
+
+ID Media        : FB007
+Judul           : Ngeri-Ngeri Sedap
+Tahun Rilis     : 2022
+Genre           : Comedy/Drama
+Durasi          : 114
+Rating Usia     : 13+
+Format Film     : 2D
+Bahasa Audio    : Indonesia
+Kualitas Gambar : 4K Digital
+Foto Poster     : pilih poster 
